@@ -3,13 +3,13 @@ package javaapplication3;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class JavaApplication3 {
+public class JavaApplication3 { // Criando minha classe
 
     public static void main(String[] args) {
-        modAdicao();
+        modAdicao(); // Chamando o metodo criado
     }
 
-    static void modAdicao() {
+    static void modAdicao() { // Criando o metodo
         Scanner sc = new Scanner(System.in);
 
         double v1;
